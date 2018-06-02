@@ -1,0 +1,47 @@
+body{
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#header{
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+#top-line{
+	border-bottom: 1px dotted white;
+	color: white;
+}
+
+#top-line .row{
+	line-height: 2em;
+}
+
+.nav a{
+	color: white;
+}
+
+.nav a:hover{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: lightblue;
+}
+
+.nav a.disabled:hover{
+	background-color: rgba(0, 0, 0, 0);
+	color: grey;
+}
+
+#banner{
+	color: white;
+	padding: 10em 0;
+	text-align: center;
+}
+
+#naslov{
+	font-size: 6em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
